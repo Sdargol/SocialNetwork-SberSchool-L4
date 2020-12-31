@@ -2,9 +2,7 @@ package org.sdargol.sn.starter;
 
 import org.sdargol.api.message.IMessage;
 import org.sdargol.api.message.Message;
-import org.sdargol.api.service.IService;
 import org.sdargol.sn.client.Client;
-import org.sdargol.sn.posts.PostManager;
 import org.sdargol.sn.server.Server;
 
 import java.util.Scanner;
@@ -19,10 +17,6 @@ public class Starter {
         String input;
 
         System.out.println("[STARTER]: Starter run!");
-
-        //IService posts = new PostManager();
-        //posts.add(0, "Это пост из Java");
-        //System.out.println(posts.getById(0));
 
         while(true){
             System.out.print("Enter header(or exit): ");
