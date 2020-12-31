@@ -25,8 +25,8 @@ response: **Post {id=8, userId=0, content='Пост из Java'}**.</br></br>
 request: **Enter header(or exit): GameBot, Enter body: 3**,
 response: **[GAME BOT]: Вы угадали.  Я загадал число в интервале от 1 до 7 что это за число ?**.</br></br>
 request: **Enter header(or exit): MessageBot Weather, Enter body: какая погода**,
-response: **[MESSAGE BOT]: Идет снег, скоро Новый Год же =)**.
-####Модули `bot`, `posts`, `server` содержат тесты.
+response: **[MESSAGE BOT]: Идет снег, скоро Новый Год же =)**.</br></br>
+Модули `bot`, `posts`, `server` содержат тесты.
 ### Итератор массива объектов и его тест :hammer:
 `customIterator` - проект содержит итератор массива объектов (класс CustomIterator) и его
 тест (CustomIteratorTest).
